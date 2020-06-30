@@ -1,17 +1,18 @@
 body{
     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 h1{
     font-size: 47px;
 }
 h2{
-    font-size: 37px;
+    font-size: 40px;
 }
 p{
     color: dimgray;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -21,6 +22,11 @@ p{
     padding-left: 2%;
 
 }
+.half-width p{
+    text-align: justify;
+    padding-right: 20px;
+}
+
 .half-width img{
     width: 100%;
     
@@ -45,4 +51,31 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#experience{
+    margin-left: 65px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1; 
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
